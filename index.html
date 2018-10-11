@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Travel Planner</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.3/dist/semantic.min.css">
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.3/dist/semantic.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="top-header">
+      <h1 class="header-text">Travel Planner</h1>
+    </div>
+
+
+    <div class="ui grid">
+      <div class="four wide column" id="four">
+        <div class="ui inverted vertical menu" id='invertedMenu'>
+          <a class="active item" id="homeButton">Home</a>
+        </div>
+        <div class="ui blue button" id="new-trip">Add New Trip</div>
+        <br>
+        <br>
+        <div id="new-trip-form">
+        </div>
+      </div>
+
+      <div class="twelve wide column" id="twelve">
+        
+      </div>
+
+    </div>
+
+    <script src="src/trip.js"></script>
+    <script src="src/index.js"></script>
+    <script src="src/app.js"></script>
+    <script src="src/accommodation.js"></script>
+    <script src="src/experience.js"></script>
+    <script src="src/ticket.js"></script>
+  </body>
+</html>
